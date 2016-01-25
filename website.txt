@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>EZrecipe Home</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+<style>
+.jumbotron{
+    background-color:#2E2D88;
+    color:white;
+}
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+</style>
+
+</head>
+<body>
+<h1 align="center"> EZrecipe </h1>
+
+
+<!-- NAVIGATION ELEMENTS -->
+<div class="container">
+
+<!-- Basic horizontal menu -->
+
+<ul align ="center" class="list-inline">
+  <li><a href="#">Home</a></li>
+  <!-- Add a dropdown menu -->
+    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipes
+     <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+      <li><a href="#">Breakfast</a></li>
+      <li><a href="#">Lunch</a></li>
+      <li><a href="dinner.html">Dinner</a></li>
+      <li><a href="#">Dessert</a></li>
+      <li><a href="#">Snacks</a></li>
+      </ul>
+      </li>
+   <li><a href="#">Vegan</a></li>
+   <li><a href="#">Meatlovers</a></li>
+   <li><a href="#">Featured Recipe</a></li>
+   <li><a href="#">Search
+   <span class="glyphicon glyphicon-search"></span></a>
+   </a></li>
+
+   </ul>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
